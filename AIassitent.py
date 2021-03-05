@@ -35,6 +35,7 @@ def takecommand():
         except Exception as e:
             print("Could not recognize. Please say it again")
             speak('Could not recognize. Please say it again')
+            takecommand()
         
     return query
 
