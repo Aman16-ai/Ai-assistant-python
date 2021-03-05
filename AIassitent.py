@@ -138,6 +138,9 @@ if __name__ == '__main__':
         elif 'your developer' in query:
             print("I developed by Aman saxena")
             speak("I developed by Aman saxena") 
+        elif 'your nationality' in query:
+            print('I am an Indian and developed by Indian developer Aman')
+            speak('I am an Indian and developed by Indian developer Aman')
         elif 'stop' in query:
             speak('ok sir')
             exit()
