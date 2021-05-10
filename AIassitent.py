@@ -35,7 +35,11 @@ def takecommand():
         except Exception as e:
             print("Could not recognize. Please say it again")
             speak('Could not recognize. Please say it again')
+<<<<<<< HEAD
             return "none"
+=======
+            takecommand()
+>>>>>>> d1768d6ca6641d3bd55262fc31e9af372a525dc1
         
     return query
 
@@ -139,6 +143,9 @@ if __name__ == '__main__':
         elif 'your developer' in query:
             print("I developed by Aman saxena")
             speak("I developed by Aman saxena") 
+        elif 'your nationality' in query:
+            print('I am an Indian and developed by Indian developer Aman')
+            speak('I am an Indian and developed by Indian developer Aman')
         elif 'stop' in query:
             speak('ok sir')
             exit()
